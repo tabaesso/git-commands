@@ -1,0 +1,16 @@
+COMANDOS GIT
+git add . - adiciona todas alterações
+git add file.txt - adiciona file.txt
+git status - vê estado dos commits
+git status -s - status resumido
+git status --short - status resumido
+git commit -a - commit direto, sem passar por stagging
+git commit -m "Mensagem" - commit passando pelo stagging com mensagem de alteração
+git commit -amend - adiciona alterações no commit anterior
+git push origin master - envia as alterações para o repositório na branch master
+git push - ||
+git pull origin - baixa commits do repositório remoto
+git pull - ||
+git fetch origin - atualiza as referências com um repositório remoto (busca branches)
+git fetch - ||
+git rm <nome_do_arquivo> - remove determinado arquivo
