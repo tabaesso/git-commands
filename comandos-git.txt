@@ -17,6 +17,7 @@ git rm <nome_do_arquivo> - remove determinado arquivo do repositório local
 git branch <nome_da_branch> - cria nova branch com o nome desejado
 git branch - lista as branches disponíveis no repositório local
 git checkout <nome_da_branch> - navega para aquela branch
+git checkout -b <nome_da_branch> - cria nova branch e já faz checkout nela
 git push --set-upstream origin new-branch - faz push da nova branch e suas alterações
 git push -u origin <nome_da_branch> - faz push da branch (nova ou não) e suas alterações
 git checkout - - o git checkout - te leva a branch que você estava trabalhando antes de trocar de branch
