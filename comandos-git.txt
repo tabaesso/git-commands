@@ -23,11 +23,14 @@ git push -u origin <nome_da_branch> - faz push da branch (nova ou não) e suas a
 git checkout - - o git checkout - te leva a branch que você estava trabalhando antes de trocar de branch
 git branch -d <nome_da_branch> - remove branch do repositorio local
 git push --delete origin <nome_da_branch> - remove do repositório online a branch desejada
-<<<<<<< HEAD
 git merge <nome_da_branch> - faz merge com a branch desejada
 git merge <nome_da_branch> -no-ff - faz merge com a branch deseja no modo 3-way
-=======
-
->>>>>>> 5faf98c61eea9df3ba51103100fe7f9a4f4c578a
-
-
+git pull --rebase - força rebase ao fazer pull
+git rebase <nome_da_branch> - reaplica todos os commits na branch desejada
+git rebase master -i - mostra lista de commits e posso alterar ela para mudar o histórico e tudo, muito foda
+git log - mostra lista de commits
+git log --oneline - mostra historico de commits em uma linha por commit
+git log --abbrev-commit - ||
+git log --color - mostra historico de commits e tenta colorir o output
+git log --graph - mostra historico em um grafico das branchs em modo texto
+git log --pretty - mostra historico e permite que sejam utilizados place holders para as informações dos commits
