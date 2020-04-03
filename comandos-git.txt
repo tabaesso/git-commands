@@ -23,7 +23,11 @@ git push -u origin <nome_da_branch> - faz push da branch (nova ou não) e suas a
 git checkout - - o git checkout - te leva a branch que você estava trabalhando antes de trocar de branch
 git branch -d <nome_da_branch> - remove branch do repositorio local
 git push --delete origin <nome_da_branch> - remove do repositório online a branch desejada
+<<<<<<< HEAD
 git merge <nome_da_branch> - faz merge com a branch desejada
 git merge <nome_da_branch> -no-ff - faz merge com a branch deseja no modo 3-way
+=======
+
+>>>>>>> 5faf98c61eea9df3ba51103100fe7f9a4f4c578a
 
 
