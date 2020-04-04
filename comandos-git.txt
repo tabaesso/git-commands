@@ -40,3 +40,6 @@ git push origin --tags - além do push normal eu preciso fazer push das tags tam
 git checkout --ours <arquivo_conflito> - adiciona conteúdo sem modificação que conflitou
 git checkout --theirs <arquivo_conflito> - adiciona conteúdo em conflito na branch atual que estou
 git merge -abort - cancela um merge que eu havia feito
+git reset --mixed - altera o staging e o repositório, mantém o working dir intacto. É o padrão e é útil nos casos que queremos desfazer partes das alterações e criar um novo commit em seguida
+git reset --soft - similar ao mixed, mas mantém o staging como está
+git reset --hard - desfaz tudo a partir de um commit específico
