@@ -43,3 +43,4 @@ git merge -abort - cancela um merge que eu havia feito
 git reset --mixed - altera o staging e o repositório, mantém o working dir intacto. É o padrão e é útil nos casos que queremos desfazer partes das alterações e criar um novo commit em seguida
 git reset --soft - similar ao mixed, mas mantém o staging como está
 git reset --hard - desfaz tudo a partir de um commit específico
+git revert - não modifica histórico de commits, mas cria um novo commit com o inverso do commit desejado, ou seja, o resultado final é o commit anterior
