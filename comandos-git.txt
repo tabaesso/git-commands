@@ -44,3 +44,8 @@ git reset --mixed - altera o staging e o repositório, mantém o working dir int
 git reset --soft - similar ao mixed, mas mantém o staging como está
 git reset --hard - desfaz tudo a partir de um commit específico
 git revert - não modifica histórico de commits, mas cria um novo commit com o inverso do commit desejado, ou seja, o resultado final é o commit anterior
+git reset HEAD~1 --hard - descarta e elimina as alterações do último commit
+git checkout HEAD~2 - move o HEAD para dois commits anteriores
+git revert <hash> - reverte as alterações de um commit específico e cria um novo commit
+git reset HEAD~2 <arquivo> - restaura para o staging as alterações do arquivo desejado em dois commits atrás
+git checkout -- <arquivo> - recupera diretamente no working dir o arquivo desejado 

@@ -1,0 +1,7 @@
+RESET, REVERT, CHECKOUT - QUANDO USAR?
+
+git reset | commit : descartar commits em branches locais ou alterações ainda não envidadas
+git reset | arquivo : altera o staging do arquivo
+git checkout | commit : troca entre branches ou commits pontuais
+git checkout | arquivo : descarta alterações no working dir
+git revert | commit : desfazer commits em branches públicas
