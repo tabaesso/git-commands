@@ -35,3 +35,5 @@ git log --color - mostra historico de commits e tenta colorir o output
 git log --graph - mostra historico em um grafico das branchs em modo texto
 git log --pretty - mostra historico e permite que sejam utilizados place holders para as informações dos commits
 git tag <versao> - cria uma tag com a versao desejada
+git checkout <versao> - "travo" para usar aquele commit em específico
+git push origin --tags - além do push normal eu preciso fazer push das tags também, para acrescentar uma tag no que foi commitado
