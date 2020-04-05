@@ -48,4 +48,5 @@ git reset HEAD~1 --hard - descarta e elimina as alterações do último commit
 git checkout HEAD~2 - move o HEAD para dois commits anteriores
 git revert <hash> - reverte as alterações de um commit específico e cria um novo commit
 git reset HEAD~2 <arquivo> - restaura para o staging as alterações do arquivo desejado em dois commits atrás
-git checkout -- <arquivo> - recupera diretamente no working dir o arquivo desejado 
+git checkout -- <arquivo> - recupera diretamente no working dir o arquivo desejado
+git add --patch - vejo linha por linha da alteração e consigo selecionar o que quero adicionar ao commit
