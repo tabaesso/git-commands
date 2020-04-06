@@ -1,4 +1,4 @@
-COMANDOS GIT
+# COMANDOS GIT
 
 `git add .` - adiciona todas alterações<br>
 `git add file.txt` - adiciona file.txt<br>
