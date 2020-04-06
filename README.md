@@ -7,7 +7,7 @@
 `git status --short` - status resumido<br>
 `git commit -a` - commit direto, sem passar por stagging<br>
 `git commit -m "Mensagem"` - commit passando pelo stagging com mensagem de alteração<br>
-`git commit -amend` - adiciona alterações no commit anterior<br>
+`git commit --amend` - adiciona alterações no commit anterior<br>
 `git push origin master` - envia as alterações para o repositório na branch master<br>
 `git push` - ||<br>
 `git pull origin` - baixa commits do repositório remoto<br>
