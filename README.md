@@ -11,7 +11,7 @@
 `git push origin master` - envia as alterações para o repositório na branch master<br>
 `git push` - envia as alterações para o repositório na branch em que você está<br>
 `git pull origin` - baixa commits do repositório remoto<br>
-`git pull` - ||<br>
+`git pull` - baixa commits do repositório remoto (igual o de cima)<br>
 `git fetch origin` - atualiza as referências com um repositório remoto (busca branches etc)<br>
 `git fetch` - ||<br>
 `git rm <nome_do_arquivo>` - remove determinado arquivo do repositório local<br>
