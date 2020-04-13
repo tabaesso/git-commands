@@ -9,7 +9,7 @@
 `git commit -m "Mensagem"` - commit passando pelo stagging com mensagem de alteração<br>
 `git commit --amend` - adiciona alterações no commit anterior<br>
 `git push origin master` - envia as alterações para o repositório na branch master<br>
-`git push` - ||<br>
+`git push` - envia as alterações para o repositório na branch em que você está<br>
 `git pull origin` - baixa commits do repositório remoto<br>
 `git pull` - ||<br>
 `git fetch origin` - atualiza as referências com um repositório remoto (busca branches etc)<br>
