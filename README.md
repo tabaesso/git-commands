@@ -52,3 +52,4 @@
 `git checkout -- <arquivo>` - recupera diretamente no working dir o arquivo desejado<br>
 `git add --patch` - vejo linha por linha da alteração e consigo selecionar o que quero adicionar ao commit<br>
 `git clone <repo> --depth` - quero o clone a partir de X commits<br>
+`git clean -f` - remove untracked files
