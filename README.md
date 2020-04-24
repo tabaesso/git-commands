@@ -13,7 +13,7 @@
 `git pull origin` - baixa commits do repositório remoto<br>
 `git pull` - baixa commits do repositório remoto (igual o de cima)<br>
 `git fetch origin` - atualiza as referências com um repositório remoto (busca branches etc)<br>
-`git fetch` - ||<br>
+`git fetch` atualiza as referências com um repositório remoto (busca branches etc) ||<br>
 `git rm <nome_do_arquivo>` - remove determinado arquivo do repositório local<br>
 `git branch <nome_da_branch>` - cria nova branch com o nome desejado<br>
 `git branch` - lista as branches disponíveis no repositório local<br>
