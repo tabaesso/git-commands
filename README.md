@@ -31,7 +31,7 @@
 `git rebase master -i` - mostra lista de commits e posso alterar ela para mudar o histórico e tudo, muito foda<br>
 `git log` - mostra lista de commits<br>
 `git log --oneline` - mostra historico de commits em uma linha por commit<br>
-`git log --abbrev-commit` - ||<br>
+`git log --abbrev-commit` - mostra historico de commits em uma linha por commit<br>
 `git log --color` - mostra historico de commits e tenta colorir o output<br>
 `git log --graph` - mostra historico em um grafico das branchs em modo texto<br>
 `git log --pretty` - mostra historico e permite que sejam utilizados place holders para as informações dos commits<br>
