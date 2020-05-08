@@ -1,6 +1,6 @@
 # COMANDOS GIT
 
-`git add .` - adiciona todas alterações<br>
+`git add .` - adiciona todas aleterações<br>
 `git add file.txt` - adiciona file.txt<br>
 `git status` - vê estado dos commits<br>
 `git status -s` - status resumido<br>
