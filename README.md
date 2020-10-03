@@ -1,6 +1,13 @@
 # COMANDOS GIT
 
-<strong>Tópicos</strong>
+- [Como contribuir?](CONTRIBUTING.md)
+
+## Outros conceitos:
+- [Git flow](git-flow.md)
+- [Patterns git](patterns-git.md)
+- [Rebase interativo](rebase-interativo.md)
+
+## Tópicos
 <table>
   <tr>
     <td><a href="#add">git add</a></td>
@@ -16,11 +23,6 @@
     <td><a href="#more">git merge</a></td>
   </tr>
 </table>
-
-## Entenda também:
-- [Git flow](git-flow.md)
-- [Patterns git](patterns-git.md)
-- [Rebase interativo](rebase-interativo.md)
 
 <h2 id="add"> git add - Colocar arquivos na fase de stagging</h2>
 
@@ -113,4 +115,4 @@
   `git tag <versao>` - cria uma tag com a versao desejada.<br>
   `git clone <repo> --depth` - quero o clone a partir de X commits.<br>
   `git clean -f` - remove untracked files
-  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterada e não ser necessariamente *origin*.
+  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*.
