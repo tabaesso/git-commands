@@ -6,7 +6,7 @@
 - Adicionando novos comandos/conceitos/ferramentas do git
 - Ajudando a traduzir os comandos/conceitos/ferramentas já existentes para o inglês, confira: [Do you speak English?](README.eng.md)
 
-### Obrigada pela sua ajuda em contribuir com esse projeto! [:octocat:]
+### Obrigada pela sua ajuda em contribuir com esse projeto! :octocat:
 
 - Faça o Fork do repositório no GitHub.
 - Clone o repositório forkado para sua máquina local.
