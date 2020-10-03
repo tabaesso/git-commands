@@ -1,6 +1,6 @@
 # COMANDOS GIT
 
-<strong>Index</strong>
+<strong>Tópicos</strong>
 <table>
   <tr>
     <td><a href="#add">git add</a></td>
@@ -16,6 +16,11 @@
     <td><a href="#more">git merge</a></td>
   </tr>
 </table>
+
+## Entenda também:
+- [Git flow](git-flow.md)
+- [Patterns git](patterns-git.md)
+- [Rebase interativo](rebase-interativo.md)
 
 <h2 id="add"> git add - Colocar arquivos na fase de stagging</h2>
 
