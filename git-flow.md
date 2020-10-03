@@ -1,4 +1,5 @@
-GIT FLOW
+# GIT FLOW
+
 git flow init - inicia um projeto git com gitflow
 git flow feature start <nome_feature> - cria uma branch de feature com o nome da feature desejada
 git flow feature publish - faz push das features no git
