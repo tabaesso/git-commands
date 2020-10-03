@@ -1,4 +1,4 @@
-# COMANDOS GIT
+# 📓 GIT COMMANDS
 
 - [Como contribuir?](CONTRIBUTING.md)
 - [Do you speak English?](README.eng.md)
