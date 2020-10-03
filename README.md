@@ -34,7 +34,7 @@
     <td>Atualizar referências</td>
   </tr>
   <tr>
-    <td><a href="#branch-checkout-rebase">git branch/checkout/rebase</a></td>
+    <td><a href="#branch-checkout">git branch/checkout</a></td>
     <td>Manipulação de branches e navegação entre branches</td>
   </tr>
   <tr>
@@ -46,8 +46,16 @@
     <td>Fazendo merge entre branches</td>
   </tr>
   <tr>
+    <td><a href="#rebase">git rebase</a></td>
+    <td>Reaplica commits em cima de determinada branch ou commit</td>
+  </tr>
+  <tr>
     <td><a href="#revert">git revert</a></td>
     <td>Como desfazer alterações</td>
+  </tr>
+  <tr>
+    <td><a href="#reset">git reset</a></td>
+    <td>Reseta o HEAD atual para o estado especificado</td>
   </tr>
   <tr>
     <td><a href="#more">outros</a></td>
@@ -99,14 +107,14 @@
   `git pull origin` - baixa commits do repositório remoto.<br>
   `git pull` - baixa commits do repositório remoto (igual o de cima).<br>
   `git pull --rebase` - força rebase ao fazer pull.<br>
-  `git pull origin master --allow-unrelated-histories` - Vai permitir que juntes dois repositórios com históricos de commits diferentes, exemplo: quando vc cria um novo repositório no Github e tem os arquivos README.md, LICENSE e no seu laptop existe já um repositório local com mais ficheiros e pretendes subir este repositório local para o Github, primeiro tens de juntar o repositório que está no Github com teu repositório local e sendo eles repositórios com históricos de commits diferentes vc precisa especificar a opção --allow-unrelated-histories quando fazer o git pull.
+  `git pull origin master --allow-unrelated-histories` - Vai permitir que juntes dois repositórios com históricos de commits diferentes, exemplo: quando vc cria um novo repositório no Github e tem os arquivos README.md, LICENSE e no seu laptop existe já um repositório local com mais ficheiros e pretendes subir este repositório local para o Github, primeiro tens de juntar o repositório que está no Github com teu repositório local e sendo eles repositórios com históricos de commits diferentes vc precisa especificar a opção --allow-unrelated-histories quando fazer o git pull.<br>
 
 <h2 id="fetch">git fetch - Atualizar referências</h2>
 
   `git fetch origin` - atualiza as referências com um repositório remoto (busca branches etc).<br>
   `git fetch` atualiza as referências com um repositório remoto (busca branches etc) ||.<br>
 
-<h2 id="branch-checkout-rebase">git branch/checkout/rebase - Manipulação de branches e navegação entre branches</h2>
+<h2 id="branch-checkout">git branch/checkout - Manipulação de branches e navegação entre branches</h2>
 
   `git branch <nome_da_branch>` - cria nova branch com o nome desejado.<br>
   `git branch` - lista as branches disponíveis no repositório local.<br>
@@ -119,8 +127,6 @@
   `git checkout --ours <arquivo_conflito>` - adiciona conteúdo sem modificação que conflitou.<br>
   `git checkout --theirs` <arquivo_conflito> - adiciona conteúdo em conflito na branch atual que estou.<br>
   `git checkout <versao>` - "travo" para usar aquele commit em específico.<br>
-  `git rebase <nome_da_branch>` - reaplica todos os commits na branch desejada.<br>
-  `git rebase master -i` - mostra lista de commits e posso alterar ela para mudar o histórico e tudo, muito foda.<br>
 
 <h2 id="mv-rm">git mv/rm - Trabalhando com arquivos e diretórios</h2>
 
@@ -136,10 +142,18 @@
   `git merge <nome_da_branch> -no-ff` - faz merge com a branch deseja no modo 3-way.<br>
   `git merge -abort` - cancela um merge que eu havia feito.<br>
 
+<h2 id="rebase">git rebase - Reaplica commits em cima de determinada branch ou commit</h2>
+
+  `git rebase <nome_da_branch>` - reaplica todos os commits na branch desejada.<br>
+  `git rebase master -i` - mostra lista de commits e posso alterar ela para mudar o histórico e tudo, muito foda.<br>
+
 <h2 id="revert">git revert - Como desfazer alterações</h2>
 
   `git revert <hash>` - reverte as alterações de um commit específico e cria um novo commit.<br>
   `git revert` - não modifica histórico de commits, mas cria um novo commit com o inverso do commit desejado, ou seja, o resultado final é o commit anterior.<br>
+
+<h2 id="reset">git reset - Reseta o HEAD atual para o estado especificado</h2>
+
   `git reset HEAD~1 --hard` - descarta e elimina as alterações do último commit.<br>
   `git reset HEAD~2 <arquivo>` - restaura para o staging as alterações do arquivo desejado em dois commits atrás.<br>
   `git reset --mixed` - altera o staging e o repositório, mantém o working dir intacto. É o padrão e é útil nos casos que queremos desfazer partes das alterações e criar um novo commit em seguida.<br>
@@ -150,5 +164,5 @@
 
   `git tag <versao>` - cria uma tag com a versao desejada.<br>
   `git clone <repo> --depth` - quero o clone a partir de X commits.<br>
-  `git clean -f` - remove untracked files
-  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*.
+  `git clean -f` - remove untracked files<br>
+  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*.<br>

@@ -4,7 +4,7 @@
 
 ### Você pode contribuir das seguintes formas:
 - Adicionando novos comandos/conceitos/ferramentas do git
-- Ajudando a traduzir os comandos/conceitos/ferramentas já existentes para o inglês
+- Ajudando a traduzir os comandos/conceitos/ferramentas já existentes para o inglês, confira: [Do you speak English?](README.eng.md)
 
 ### Obrigada pela sua ajuda em contribuir com esse projeto! [:octocat:]
 
