@@ -2,27 +2,27 @@
 
 - [Como contribuir?](CONTRIBUTING.md)
 
+## Tópicos
+
+| Comandos                                                | O que faz?                                            |
+|---------------------------------------------------------|-------------------------------------------------------|
+| [git add]("#add")                                       | Colocar arquivos na fase de stagging                  |
+| [git status/log]("#status-log")                         | Ver o status das suas alterações                      |
+| [git commit]("#commit")                                 | Manipular alterações pós stagging                     |
+| [git push]("#push")                                     | Enviar alterações para o repositório remoto           |
+| [git pull]("#pull")                                     | Baixar informações do repositório remoto para o local |
+| [git fetch]("#fetch")                                   | Atualizar referências                                 |
+| [git branch/checkout/rebase]("#branch-checkout-rebase") | Manipulação de branches e navegação entre branches    |
+| [git mv/rm]("#mv-rm")                                   | Trabalhando com arquivos e diretórios                 |
+| [git merge]("#merge")                                   | Fazendo merge entre branches                          |
+| [git revert]("#revert")                                 | Como desfazer alterações                              |
+| [other commands]("#more")                               | Mais comandos úteis                                   |
+
+
 ## Outros conceitos:
 - [Git flow](git-flow.md)
 - [Patterns git](patterns-git.md)
 - [Rebase interativo](rebase-interativo.md)
-
-## Tópicos
-<table>
-  <tr>
-    <td><a href="#add">git add</a></td>
-    <td><a href="#status-log">git status log</a></td>
-    <td><a href="#commit">git commit</a></td>
-    <td><a href="#push">git push</a></td>
-    <td><a href="#pull">git pull</a></td>
-    <td><a href="#fetch">git fetch</a></td>
-    <td><a href="#branch-checkout-rebase">git branch/checkout/rebase</a></td>
-    <td><a href="#mv-rm">git mv/rm</a></td>
-    <td><a href="#merge">git merge</a></td>
-    <td><a href="#revert">git revert</a></td>
-    <td><a href="#more">git merge</a></td>
-  </tr>
-</table>
 
 <h2 id="add"> git add - Colocar arquivos na fase de stagging</h2>
 
