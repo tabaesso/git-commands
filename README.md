@@ -1,6 +1,7 @@
 # COMANDOS GIT
 
 - [Como contribuir?](CONTRIBUTING.md)
+- [Do you speak English?](README.eng.md)
 
 ## Tópicos
 
