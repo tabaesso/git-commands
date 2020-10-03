@@ -24,7 +24,7 @@
 - [Patterns git](patterns-git.md)
 - [Rebase interativo](rebase-interativo.md)
 
-## git add
+### git add
 ### Colocar arquivos na fase de stagging
 
   `git add . ` - adiciona todas alterações feitas na fase de stagging.<br>
