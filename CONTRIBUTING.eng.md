@@ -5,7 +5,7 @@
 ### You can contribute in the following ways:
 - Adding new git commands or concepts or tools
 
-### Thank you for want to help to contribute to this project! [:octocat:]
+### Thank you for want to help to contribute to this project! :octocat:
 
 - Fork this repo on GitHub.
 - Clone the forked repository to your local system.
