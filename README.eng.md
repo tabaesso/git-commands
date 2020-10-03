@@ -1,67 +1,66 @@
-# COMANDOS GIT
+# GIT COMMANDS
 
-- [Como contribuir?](CONTRIBUTING.md)
-- [Do you speak English?](README.eng.md)
+- [How to contribute?](CONTRIBUTING.eng.md)
 
-## Tópicos
+## Summary
 
 <table>
   <tr>
-    <th>Comandos</th>
-    <th>O que faz?</th>
+    <th>Commands</th>
+    <th>How it works?</th>
   </tr>
   <tr>
     <td><a href="#add">git add</a></td>
-    <td>Colocar arquivos na fase de stagging</td>
+    <!-- <td>Colocar arquivos na fase de stagging</td> -->
   </tr>
   <tr>
     <td><a href="#status-log">git status log</a></td>
-    <td>Ver o status das suas alterações</td>
+    <!-- <td>Ver o status das suas alterações</td> -->
   </tr>
   <tr>
     <td><a href="#commit">git commit</a></td>
-    <td>Manipular alterações pós stagging</td>
+    <!-- <td>Manipular alterações pós stagging</td> -->
   </tr>
   <tr>
     <td><a href="#push">git push</a></td>
-    <td>Enviar alterações para o repositório remoto</td>
+    <!-- <td>Enviar alterações para o repositório remoto</td> -->
   </tr>
   <tr>
     <td><a href="#pull">git pull</a></td>
-    <td>Baixar informações do repositório remoto para o local</td>
+    <!-- <td>Baixar informações do repositório remoto para o local</td> -->
   </tr>
   <tr>
     <td><a href="#fetch">git fetch</a></td>
-    <td>Atualizar referências</td>
+    <!-- <td>Atualizar referências</td> -->
   </tr>
   <tr>
     <td><a href="#branch-checkout-rebase">git branch/checkout/rebase</a></td>
-    <td>Manipulação de branches e navegação entre branches</td>
+    <!-- <td>Manipulação de branches e navegação entre branches</td> -->
   </tr>
   <tr>
     <td><a href="#mv-rm">git mv/rm</a></td>
-    <td>Trabalhando com arquivos e diretórios</td>
+    <!-- <td>Trabalhando com arquivos e diretórios</td> -->
   </tr>
   <tr>
     <td><a href="#merge">git merge</a></td>
-    <td>Fazendo merge entre branches</td>
+    <!-- <td>Fazendo merge entre branches</td> -->
   </tr>
   <tr>
     <td><a href="#revert">git revert</a></td>
-    <td>Como desfazer alterações</td>
+    <!-- <td>Como desfazer alterações</td> -->
   </tr>
   <tr>
     <td><a href="#more">outros</a></td>
-    <td>Mais comandos úteis</td>
+    <!-- <td>Mais comandos úteis</td> -->
   </tr>
 </table>
 
-## Outros conceitos:
-- [Git flow](git-flow.md)
-- [Patterns git](patterns-git.md)
-- [Rebase interativo](rebase-interativo.md)
+## Other concepts:
+- [Git flow](git-flow.eng.md)
+<!-- - [Patterns git](patterns-git.eng.md) -->
+- [Interactive rebase](interactive-rebase.eng.md)
 
-<h2 id="add">git add - Colocar arquivos na fase de stagging</h2>
+<!-- <h2 id="add">git add - Colocar arquivos na fase de stagging</h2>
 
   `git add . ` - adiciona todas alterações feitas na fase de stagging.<br>
   `git add file.txt` - adiciona file.txt na fase de stagging.<br>
@@ -152,4 +151,4 @@
   `git tag <versao>` - cria uma tag com a versao desejada.<br>
   `git clone <repo> --depth` - quero o clone a partir de X commits.<br>
   `git clean -f` - remove untracked files
-  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*.
+  `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*. -->

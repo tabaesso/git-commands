@@ -6,5 +6,3 @@ git flow feature publish - faz push das features no git
 git flow feature finish - finalizo as features e faz merge com develop e deleta branch (local e online)
 git flow release start <numero_versao> - cria release
 git flow release finish <numero_versao> - finalizo a release e deleta branch (local e online) = abre varias janelas para adicionar nome da release, tag, etc
-
---> Importante após finalizar as coisas fazer push das branches que ainda estão "em aberto" e fazer push das tags e release
