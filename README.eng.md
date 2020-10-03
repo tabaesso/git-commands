@@ -1,4 +1,4 @@
-# GIT COMMANDS
+# 📓 GIT COMMANDS
 
 - [How to contribute?](CONTRIBUTING.eng.md)
 
