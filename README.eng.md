@@ -58,7 +58,7 @@
     <td>Reset current HEAD to the specified state</td>
   </tr>
   <tr>
-    <td><a href="#more">outros</a></td>
+    <td><a href="#more">others</a></td>
     <td>More useful git commands</td>
   </tr>
 </table>
