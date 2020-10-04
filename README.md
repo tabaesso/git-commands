@@ -87,6 +87,7 @@
   `git log --color` - mostra historico de commits e tenta colorir o output.<br>
   `git log --graph` - mostra historico em um grafico das branchs em modo texto.<br>
   `git log --pretty` - mostra historico e permite que sejam utilizados place holders para as informações dos commits.<br>
+  `git log --pretty=oneline` - mostra o histórico de commits em uma linha por commit com o hash completo.<br>
 
 <h2 id="commit">git commit - Manipular alterações pós stagging</h2>
 
