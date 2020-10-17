@@ -63,6 +63,13 @@
   </tr>
 </table>
 
+<h2 id="warning-level">Danger levels of Commands</h2>
+<ul>
+  <li>Inofensive: Doesn't make any change at your project only give to you information about it.</li>
+  <li>Warning: Pay attention on those commands, because they may be executed with your all attention on what they will do at you git structure.</li>
+  <li>Danger: Those commands could change the file structure of your project and it can cause files or folders deletion.</li>
+</ul>
+
 ## Other concepts:
 - [Git flow](git-flow.eng.md)
 - [Patterns git](patterns-git.eng.md)
