@@ -175,3 +175,4 @@
   `git clone <repo> --depth` - quero o clone a partir de X commits.<br>
   `git clean -f` - remove untracked files<br>
   `git remote add origin <url_do_repositorio>` - Faz uma ligação com o seu repositório remoto e essa ligação será chamada *origin* note que o nome da ligação pode ser alterado e não ser necessariamente *origin*.<br>
+  `git commit --author="Ms. Jane Codeldoe <Jane@Codeldoe.com>" -m "Jane wrote this I'm just committing"` - Muda o autor de um determinado commit
